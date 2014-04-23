@@ -14,4 +14,5 @@
 Route::get('/', function()
 {
 	return 'iCollaborate';
+	return phpinfo();
 });
