@@ -13,5 +13,10 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return "Home Page";
 });
+
+Route::get('/authtest', array('before' => 'auth.basic', function()
+{
+	return View::make('hello');
+}));
