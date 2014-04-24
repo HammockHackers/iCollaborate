@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => '0QOrwfeIv9cZrt6THWcG5Su2sed4GWrf',
+	'key' => 'ThisIsMySimple32CharacterString!',
 
 	/*
 	|--------------------------------------------------------------------------
